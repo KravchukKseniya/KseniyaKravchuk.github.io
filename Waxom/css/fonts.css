@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(../fonts/Montserrat/montserrat-regular.woff2) format('woff2'),
+    url(../fonts/Montserrat/montserrat-regular.woff") format('woff'),
+    url(../fonts/Montserrat/montserrat-regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url(../fonts/Montserrat/montserrat-light-webfont.woff2) format('woff2'),
+         url(../fonts/Montserrat/montserrat-light-webfont.woff) format('woff'),
+         url(../fonts/Montserrat/montserrat-light.ttf) format('ttf');
+}
+
+
+@font-face {
+    font-family: 'Montserrat Extra Light';
+    src: url(../fonts/Montserrat/montserrat-extralight-webfont.woff2) format('woff2'),
+         url(../fonts/Montserrat/montserrat-extralight-webfont.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'Raleway Bold';
+    src: url(../fonts/Raleway/raleway-bold-webfont.woff2) format('woff2'),
+         url(../onts/Raleway/raleway-bold-webfont.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'Raleway Extra Bold';
+    src: url(../fonts/Raleway/raleway-extrabold-webfont.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-extrabold-webfont.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'Raleway Medium';
+    src: url(../fonts/Raleway/raleway-medium-webfont.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-medium-webfont.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url(../fonts/Raleway/raleway-regular-webfont.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-regular-webfont.woff) format('woff');
+}
+
+
+
+
+@font-face {
+    font-family: 'Raleway SemiBold';
+    src: url(../fonts/Raleway/raleway-semibold-webfont.woff2) format('woff2'),
+         url(../fonts/Raleway/raleway-semibold-webfont.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(../fonts/Roboto/roboto-regular-webfont.woff2) format('woff2'),
+         url(../fonts/Roboto/roboto-regular-webfont.woff) format('woff');
+}

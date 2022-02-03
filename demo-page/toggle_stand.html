@@ -9,7 +9,6 @@
     <img src="img/mobile.png" alt="" height="100%">
     <iframe id="frame" class="frame-desktop" src=" " frameborder="0"></iframe>
 </div>
-<!--<iframe class='desktop-frame' src="Demo.html" frameborder="0"></iframe>-->
 <div class="toggle-container">
     <input id="toggle" type="checkbox">
     <label for="toggle" class="wrapper-buttons">
@@ -246,7 +245,6 @@
     }
 
     elements.toggle.addEventListener('click', function () {
-      console.log('click')
       setTimeout(function () {
         let url = getURL();
         window.history.pushState(null, document.title, url.search);

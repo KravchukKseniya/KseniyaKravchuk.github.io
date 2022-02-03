@@ -3,21 +3,28 @@
     margin: 0;
 }
 h1 {
-    margin: 20px 0;
+    margin: 40px 0 30px 0;
+}
+h2 {
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 h3 {
     margin: 30px 0 10px 0;
 }
 body {
-    background: #FFEC73;
+    background-image: url('papyrus-dark.png');
+    /*background: #FFEC73;*/
     padding-left: 40px;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     letter-spacing: 1px;
     /*display: flex;*/
     font-size: 19px;
-    width: 70%;
+    width: 80%;
     min-width: 700px;
-    margin: 40px auto;
+    margin: 0 auto;
+    color: #f3f2f2;
 }
 .column {
     margin-right: 120px;
@@ -33,11 +40,164 @@ ol li {
     flex-direction: column;
 }
 a {
-    color: black;
+    color: #f3f2f2;
     text-decoration: none;
 }
 a:hover {
     color: grey;
 }
+
+/*Mobile Banners*/
+.banner-cards {
+    display: flex;
+}
+
+.banner-card {
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 15vw;
+}
+
+.banner-card-img {
+    margin: 15px;
+    width: 10vw;
+    border-radius: 6px;
+}
+
+.banner-card-img-1 {
+    background: url('PancakesBanner.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.banner-card-img-2 {
+    background: url('Adrenalin.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.banner-card-img-1::before,
+.banner-card-img-2::before {
+    content: '';
+    display: block;
+    padding-top: 177%;
+}
+
+.banner-card-text {
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.banner-card-link {
+    margin-right: 30px;
+}
+
+/*Desktop Banners*/
+.desktop-banner-cards {
+    display: flex;
+}
+
+.desktop-banner-card {
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 25vw;
+}
+
+.desktop-banner-card-img {
+    margin: 15px;
+    width: 20vw;
+    border-radius: 6px;
+}
+
+.desktop-banner-card-img-1 {
+    background: url('AutoBanner.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.desktop-banner-card-img-1::before,
+.desktop-banner-card-img-2::before {
+    content: '';
+    display: block;
+    padding-top: 55.69%;
+}
+
+.desktop-banner-card-text {
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.desktop-banner-card-link {
+    margin-right: 30px;
+}
+
+/*Sites*/
+.site-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-card {
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.site-card-img {
+    margin: 15px;
+    width: 25vw;
+    border-radius: 6px;
+}
+
+.site-card-img-1 {
+    background: url('demoStand.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.site-card-img-2 {
+    background: url('DoubleScreen.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.site-card-img-3 {
+    background: url('Waxon.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.site-card-img-4 {
+    background: url('Interior.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+.site-card-img-1::before,
+.site-card-img-2::before,
+.site-card-img-3::before,
+.site-card-img-4::before {
+    content: '';
+    display: block;
+    padding-top: 48.4%;
+}
+
+.site-card-text {
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.site-card-link {
+    margin: 15px;
+}
+
 
 
